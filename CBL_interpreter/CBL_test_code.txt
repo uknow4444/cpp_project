@@ -1,0 +1,20 @@
+def fun2 :
+	var a = 0b00000000
+	var b = 0b11100000
+	a = b
+	print(a)
+	
+
+def func1 :
+	var a = 0b00000000
+	var b = 0b00011100
+	a = b
+	fun2()
+	print(a)
+
+def main :
+	var a = 0b00000000
+	var b = 0b00000011
+	a = b
+	func1()
+	print(a)
